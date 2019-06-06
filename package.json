@@ -1,0 +1,50 @@
+{
+  "name": "eslint-plugin-xxxx",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "add-rule": "node scripts/add-rule",
+    "lint": "eslint lib scripts tests",
+    "update": "node scripts/update",
+    "pretest": "npm run -s lint",
+    "test": "nyc mocha \"tests/lib/**/*.js\" --reporter progress",
+    "preversion": "npm test",
+    "version": "npm run -s update",
+    "postversion": "git push && git push --tags"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.16.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.0.6",
+    "eslint": "^5.16.0",
+    "eslint-config-eslint": "^5.0.1",
+    "eslint-plugin-eslint-plugin": "^2.1.0",
+    "eslint-plugin-node": "^9.1.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/???/eslint-plugin-xxxx.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/???/eslint-plugin-xxxx/issues"
+  },
+  "homepage": "https://github.com/???/eslint-plugin-xxxx#readme"
+}
