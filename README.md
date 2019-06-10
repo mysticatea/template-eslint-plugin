@@ -11,9 +11,11 @@ Please update `package.json` after you created new repository with this template
 - `tests/lib/` is the directory to put tests for `lib/`.
 - `.eslintignore` and `.eslintrc.js` are the configuration to lint this repository.
 
-This template uses [mocha](https://www.npmjs.com/package/mocha) and [nyc](https://www.npmjs.com/package/nyc) for tests. If you want to use other tools, costomize it.
+**Dependencies**:
 
-There are some development tools.
+This template uses [mocha](https://www.npmjs.com/package/mocha), [nyc](https://www.npmjs.com/package/nyc), and [Travis CI](https://travis-ci.com/) for tests, as same as ESLint itself. If you want to use other tools, costomize it.
+
+**Development Tools**:
 
 - `npm run add-rule foo` command adds a rule definition.
 - `npm version` command updates the following stuff by the `meta` property of rules:
