@@ -13,7 +13,7 @@ Please update `package.json` after you created new repository with this template
 
 **Dependencies**:
 
-This template uses [mocha](https://www.npmjs.com/package/mocha), [nyc](https://www.npmjs.com/package/nyc), and [Travis CI](https://travis-ci.com/) for tests, as same as ESLint itself. If you want to use other tools, costomize it.
+This template uses [mocha](https://www.npmjs.com/package/mocha), [nyc](https://www.npmjs.com/package/nyc), and [Travis CI](https://travis-ci.com/) for tests, as same as ESLint itself. If you want to use other tools, customize it.
 
 **Development Tools**:
 
